@@ -138,7 +138,7 @@ python3 -m venv venv
 ### 3. Activate the virtual environment
 **Windows (Command Prompt)**
 ```bash
-venv\Scripts\activate
+source venv\Scripts\activate
 ```
 **Windows (PowerShell)**
 ```powershell
@@ -150,9 +150,13 @@ source venv/bin/activate
 ```
 
 ### 4. Install dependencies
-**Windows, macOS, Linux**
+**Windows**
 ```bash
 pip install -r requirements.txt
+```
+**macOS/Linux**
+```bash
+pip3 install -r requirements.txt
 ```
 
 ### 5. Run the project
@@ -196,7 +200,7 @@ deactivate
 
 #### Did you use AI assistance?
 
-    Yes, portions of this project were completed with the assistance of Anthropic's Claude. Claude was used to help design the database schema, write and debug SQL and Python code, and structure this documentation. All code, analysis, and written explanations were reviewed, understood, and can be modified by the author prior to being used.
+    Yes, portions of this project were completed with some assistance from Anthropic's Claude and Gemini in Google searches. I used AI (Claude and Gemini) to help with design guiadance for the database schema, to write and debug SQL and Python code, and structure this documentation. All code, analysis, and written explanations were reviewed, understood, and can be modified by the author prior to being used.
 
 #### Which technologies did you use?
 
